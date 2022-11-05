@@ -1,1 +1,18 @@
+on:
+  push:
+    branches:
+      -master
 
+
+
+
+    job:
+      build:
+        runs-on: ubuntu-latest\
+
+
+        steps:
+          - name: "Test GitHub Action"
+            run: pwd
+          - name: "Test print"
+            run: echo ahmed
